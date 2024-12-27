@@ -66,4 +66,5 @@ nav ul li i{
   align-items: center; /* Pusatkan secara vertikal */
   height: 100vh; /* Buat tinggi elemen sesuai tinggi viewport */
   margin-left: 200px; /* Sesuaikan dengan lebar navbar */
+  background-color: red;
 }
