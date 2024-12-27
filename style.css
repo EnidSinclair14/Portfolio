@@ -1,0 +1,69 @@
+*, html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fcffc1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) ,url(/images/light.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+.main_navbar{
+  background-color: #ffe569;
+  width: 140px;
+  height: 100%;
+  position: absolute;
+}
+
+nav div img{
+  width: 80px;
+  margin-left: 2rem;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0.5rem;
+}
+
+nav ul li{
+  padding: 8px;
+  margin-bottom: 15px;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+nav ul li:hover{
+  color: white;
+  background-color: #5ea2e0;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-family: 'Segoe UI', sans-serif;
+  color: #202020;
+  font-weight: 600;
+  padding: 6px 0;
+}
+
+nav ul li:hover a{
+  color: white;
+}
+
+nav ul li i{
+  width: 30px;
+  text-align: center;
+}
+
+.home_welcoming {
+  display: flex;
+  justify-content: center; /* Pusatkan secara horizontal */
+  align-items: center; /* Pusatkan secara vertikal */
+  height: 100vh; /* Buat tinggi elemen sesuai tinggi viewport */
+  margin-left: 200px; /* Sesuaikan dengan lebar navbar */
+}
